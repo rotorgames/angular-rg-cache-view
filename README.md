@@ -10,6 +10,7 @@ Why use?
 Angular, after the change of state, re-compiles dom. rgCacheView caches dom, keeping scope. 
 Data binding, events, watchers, stop listening $digest after caching, and not re-compiled, are still in the cache. 
 After the restoration of the cache, scope updated and compiled only the changed elements dom.
+![Test](img/angular-rg-cach-view.jpg)
 
 How use?
 ===========
